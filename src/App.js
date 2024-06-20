@@ -21,7 +21,7 @@ const click=function(){
     const fetchData=async()=>{
 
       try{
-        const res= await axios.get("http://kawkaw.wuaze.com/api/game/getGames");
+        const res= await axios.get("https://kawkaw.wuaze.com/api/game/getGames");
         alert(res.data);
 
       }catch(error)
